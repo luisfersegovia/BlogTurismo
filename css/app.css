@@ -1,0 +1,68 @@
+.logo {
+    margin-top: 7px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px;
+}
+
+.social-links, .social-links li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-links li a {
+    background: #263238;
+    color: #FFF;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0px auto;
+}
+
+.images-section .card {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.images-section img {
+    padding: 10px 10px 5px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.p10 {
+    padding: 10px;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.pt20 {
+    padding-top: 20px;
+}
+
+.profile h3 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-navigation li a {
+        font-size: 12px;
+    }
+    nav {
+        height: auto !important;
+    }
+    nav > .row {
+        margin-bottom: 0;
+    }
+}
